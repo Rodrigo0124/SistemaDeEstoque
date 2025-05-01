@@ -1,0 +1,14 @@
+C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\bin\Debug\net8.0\ExercicioPooLoja.exe
+C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\bin\Debug\net8.0\ExercicioPooLoja.deps.json
+C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\bin\Debug\net8.0\ExercicioPooLoja.runtimeconfig.json
+C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\bin\Debug\net8.0\ExercicioPooLoja.dll
+C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\bin\Debug\net8.0\ExercicioPooLoja.pdb
+C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\obj\Debug\net8.0\ExercicioPooLoja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\obj\Debug\net8.0\ExercicioPooLoja.AssemblyInfoInputs.cache
+C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\obj\Debug\net8.0\ExercicioPooLoja.AssemblyInfo.cs
+C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\obj\Debug\net8.0\ExercicioPooLoja.csproj.CoreCompileInputs.cache
+C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\obj\Debug\net8.0\ExercicioPooLoja.dll
+C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\obj\Debug\net8.0\refint\ExercicioPooLoja.dll
+C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\obj\Debug\net8.0\ExercicioPooLoja.pdb
+C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\obj\Debug\net8.0\ExercicioPooLoja.genruntimeconfig.cache
+C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\obj\Debug\net8.0\ref\ExercicioPooLoja.dll
