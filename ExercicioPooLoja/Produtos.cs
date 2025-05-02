@@ -11,18 +11,18 @@ namespace ExercicioPooLoja
 
         public void LerDados()
         {
-            Console.WriteLine("Digite o nome do produto: ");
+            Console.Write("Digite o nome do produto: ");
             Nome = Console.ReadLine();
-            Console.WriteLine("Informar o preço do produto: ");
+            Console.Write("Informar o preço do produto: ");
 
             while (!double.TryParse(Console.ReadLine(), CultureInfo.InvariantCulture, out Preco))
             {
-                Console.WriteLine("Dados inválidos! Digite novamente:");
+                Console.Write("Dados inválidos! Digite novamente: ");
             }
-            Console.WriteLine("Quantidade do produto em estoque: ");
+            Console.Write("Quantidade do produto em estoque: ");
             while (!int.TryParse(Console.ReadLine(), out Quantidade))
             {
-                Console.WriteLine("Dados inválidos! Digite novamente:");
+                Console.Write("Dados inválidos! Digite novamente: ");
             }
             MostrarDados();
         }
@@ -54,47 +54,47 @@ namespace ExercicioPooLoja
             {
                 while (decisao != "Adicionar" && decisao != "adicionar" && decisao != "Remover" && decisao != "remover")
                 {
-                    Console.WriteLine("Comando inserido incorretamente! Digite novamente se você deseja adicionar ou remover.");
+                    Console.Write("Comando inserido incorretamente! Digite novamente se você deseja adicionar ou remover: ");
                     decisao = Console.ReadLine();
                 }
 
                 if (decisao == "Adicionar" || decisao == "adicionar")
                 {
-                    Console.WriteLine("\nDigite quantos produtos você quer adicionar no estoque: ");
+                    Console.Write("\nDigite quantos produtos você quer adicionar no estoque: ");
                     int adicionarEstoque;
                     while (!int.TryParse(Console.ReadLine(), out adicionarEstoque))
                     {
-                        Console.WriteLine("Dados inválidos! Digite novamente:");
+                        Console.Write("Dados inválidos! Digite novamente: ");
                     }
                     AdicionarEstoque(adicionarEstoque);
                 }
                 else
                 {
-                    Console.WriteLine("\nDigite quantos produtos você quer remover no estoque: ");
+                    Console.Write("\nDigite quantos produtos você quer remover no estoque: ");
                     int removerEstoque;
                     while (!int.TryParse(Console.ReadLine(), out removerEstoque))
                     {
-                        Console.WriteLine("Dados inválidos! Digite novamente:");
+                        Console.Write("Dados inválidos! Digite novamente: ");
                     }
                     RemoverEstoque(removerEstoque);
                 }
-                Console.WriteLine("Deseja adicionar ou remover mais produtos? Digite 1 para Sim e 2 para Não: ");
+                Console.Write("Deseja adicionar ou remover mais produtos? Digite 1 para Sim e 2 para Não: ");
 
                 while (!int.TryParse(Console.ReadLine(), out controlador) || controlador != 1 && controlador != 2)
                 {
 
-                    Console.WriteLine("Código inválido, digite novamente! Digite 1 para Sim e 2 para Não");
+                    Console.Write("Código inválido, digite novamente! Digite 1 para Sim e 2 para Não: ");
 
                 }
                 if (controlador == 1)
                 {
 
-                    Console.WriteLine("Deseja adicionar ou remover o produto do estoque? digite Adicionar ou Remover");
+                    Console.Write("Deseja adicionar ou remover o produto do estoque? digite Adicionar ou Remover: ");
                     decisao = Console.ReadLine();
                 }
                 else
                 {
-                    Console.WriteLine("Estoque atualizado com sucesso!");
+                    Console.WriteLine("\nEstoque atualizado com sucesso!");
                 }
             }
         }

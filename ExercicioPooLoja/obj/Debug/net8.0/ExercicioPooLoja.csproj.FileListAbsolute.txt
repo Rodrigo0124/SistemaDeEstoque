@@ -12,3 +12,4 @@ C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\obj\Debug\net8
 C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\obj\Debug\net8.0\ExercicioPooLoja.pdb
 C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\obj\Debug\net8.0\ExercicioPooLoja.genruntimeconfig.cache
 C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\obj\Debug\net8.0\ref\ExercicioPooLoja.dll
+C:\Users\digow\Desktop\Projetos\ExercicioPooLoja\ExercicioPooLoja\obj\Debug\net8.0\ExercicioPooLoja.sourcelink.json
