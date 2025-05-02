@@ -15,7 +15,7 @@ namespace ExercicioPooLoja
             Nome = Console.ReadLine();
             Console.Write("Informar o preço do produto: ");
 
-            while (!double.TryParse(Console.ReadLine(), CultureInfo.InvariantCulture, out Preco))
+            while (!double.TryParse(Console.ReadLine(),NumberStyles.Any, CultureInfo.InvariantCulture, out Preco))
             {
                 Console.Write("Dados inválidos! Digite novamente: ");
             }
@@ -100,7 +100,7 @@ namespace ExercicioPooLoja
         }
         public void MostrarDados()
         {
-            Console.WriteLine("Dados do produto: ");
+            Console.WriteLine("\nDados do produto: ");
             Console.WriteLine("Nome do produto: " + Nome);
             Console.WriteLine("Preço: " + Preco.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("Quantidade em estoque: " + Quantidade);
