@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\digow\\Desktop\\Projetos\\ExercicioPooLoja\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{793736C2-41C2-4F2B-8B80-4EBBCEDB6D87}|ExercicioPooLoja\\ExercicioPooLoja.csproj|c:\\users\\digow\\desktop\\projetos\\exerciciopooloja\\exerciciopooloja\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{793736C2-41C2-4F2B-8B80-4EBBCEDB6D87}|ExercicioPooLoja\\ExercicioPooLoja.csproj|solutionrelative:exerciciopooloja\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{793736C2-41C2-4F2B-8B80-4EBBCEDB6D87}|ExercicioPooLoja\\ExercicioPooLoja.csproj|c:\\users\\digow\\desktop\\projetos\\exerciciopooloja\\exerciciopooloja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{793736C2-41C2-4F2B-8B80-4EBBCEDB6D87}|ExercicioPooLoja\\ExercicioPooLoja.csproj|solutionrelative:exerciciopooloja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{793736C2-41C2-4F2B-8B80-4EBBCEDB6D87}|ExercicioPooLoja\\ExercicioPooLoja.csproj|c:\\users\\digow\\desktop\\projetos\\exerciciopooloja\\exerciciopooloja\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{793736C2-41C2-4F2B-8B80-4EBBCEDB6D87}|ExercicioPooLoja\\ExercicioPooLoja.csproj|solutionrelative:exerciciopooloja\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +26,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Produtos.cs",
               "DocumentMoniker": "C:\\Users\\digow\\Desktop\\Projetos\\ExercicioPooLoja\\ExercicioPooLoja\\Produtos.cs",
               "RelativeDocumentMoniker": "ExercicioPooLoja\\Produtos.cs",
               "ToolTip": "C:\\Users\\digow\\Desktop\\Projetos\\ExercicioPooLoja\\ExercicioPooLoja\\Produtos.cs",
               "RelativeToolTip": "ExercicioPooLoja\\Produtos.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAGEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAYwD8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T15:46:09.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\digow\\Desktop\\Projetos\\ExercicioPooLoja\\ExercicioPooLoja\\Program.cs",
               "RelativeDocumentMoniker": "ExercicioPooLoja\\Program.cs",
               "ToolTip": "C:\\Users\\digow\\Desktop\\Projetos\\ExercicioPooLoja\\ExercicioPooLoja\\Program.cs",
               "RelativeToolTip": "ExercicioPooLoja\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T15:45:10.43Z"
+              "WhenOpened": "2025-04-29T15:45:10.43Z",
+              "EditorCaption": ""
             }
           ]
         }

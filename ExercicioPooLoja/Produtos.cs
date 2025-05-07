@@ -47,54 +47,70 @@ namespace ExercicioPooLoja
         }
         public void ObterDecisao()
         {
-
-            String decisao = Console.ReadLine();
+            int outraEscolha;
             int controlador = 1;
-            while (controlador == 1)
+            while (!int.TryParse(Console.ReadLine(), out outraEscolha) || outraEscolha != 1 && outraEscolha != 2)
             {
-                while (decisao != "Adicionar" && decisao != "adicionar" && decisao != "Remover" && decisao != "remover")
-                {
-                    Console.Write("Comando inserido incorretamente! Digite novamente se você deseja adicionar ou remover: ");
-                    decisao = Console.ReadLine();
-                }
+                Console.Write("Comando inserido incorretamente! Digite novamente 1 para SIM ou 2 para NÃO: ");
+                
+            }
+            if (outraEscolha == 2)
+            {
+                
+                controlador = 2;
+            }
+            else
+            {
+                Console.Write("Deseja adicionar ou remover o produto do estoque? digite Adicionar ou Remover: ");
+                String decisao = Console.ReadLine();
 
-                if (decisao == "Adicionar" || decisao == "adicionar")
+
+                while (controlador == 1)
                 {
-                    Console.Write("\nDigite quantos produtos você quer adicionar no estoque: ");
-                    int adicionarEstoque;
-                    while (!int.TryParse(Console.ReadLine(), out adicionarEstoque))
+                    while (decisao != "Adicionar" && decisao != "adicionar" && decisao != "Remover" && decisao != "remover")
                     {
-                        Console.Write("Dados inválidos! Digite novamente: ");
+                        Console.Write("Comando inserido incorretamente! Digite novamente se você deseja adicionar ou remover: ");
+                        decisao = Console.ReadLine();
                     }
-                    AdicionarEstoque(adicionarEstoque);
-                }
-                else
-                {
-                    Console.Write("\nDigite quantos produtos você quer remover no estoque: ");
-                    int removerEstoque;
-                    while (!int.TryParse(Console.ReadLine(), out removerEstoque))
+
+                    if (decisao == "Adicionar" || decisao == "adicionar")
                     {
-                        Console.Write("Dados inválidos! Digite novamente: ");
+                        Console.Write("\nDigite quantos produtos você quer adicionar no estoque: ");
+                        int adicionarEstoque;
+                        while (!int.TryParse(Console.ReadLine(), out adicionarEstoque))
+                        {
+                            Console.Write("Dados inválidos! Digite novamente: ");
+                        }
+                        AdicionarEstoque(adicionarEstoque);
                     }
-                    RemoverEstoque(removerEstoque);
-                }
-                Console.Write("Deseja adicionar ou remover mais produtos? Digite 1 para Sim e 2 para Não: ");
+                    else
+                    {
+                        Console.Write("\nDigite quantos produtos você quer remover no estoque: ");
+                        int removerEstoque;
+                        while (!int.TryParse(Console.ReadLine(), out removerEstoque))
+                        {
+                            Console.Write("Dados inválidos! Digite novamente: ");
+                        }
+                        RemoverEstoque(removerEstoque);
+                    }
+                    Console.Write("Deseja adicionar ou remover mais produtos? Digite 1 para Sim e 2 para Não: ");
 
-                while (!int.TryParse(Console.ReadLine(), out controlador) || controlador != 1 && controlador != 2)
-                {
+                    while (!int.TryParse(Console.ReadLine(), out controlador) || controlador != 1 && controlador != 2)
+                    {
 
-                    Console.Write("Código inválido, digite novamente! Digite 1 para Sim e 2 para Não: ");
+                        Console.Write("Código inválido, digite novamente! Digite 1 para Sim e 2 para Não: ");
 
-                }
-                if (controlador == 1)
-                {
+                    }
+                    if (controlador == 1)
+                    {
 
-                    Console.Write("Deseja adicionar ou remover o produto do estoque? digite Adicionar ou Remover: ");
-                    decisao = Console.ReadLine();
-                }
-                else
-                {
-                    Console.WriteLine("\nEstoque atualizado com sucesso!");
+                        Console.Write("Deseja adicionar ou remover o produto do estoque? digite Adicionar ou Remover: ");
+                        decisao = Console.ReadLine();
+                    }
+                    else
+                    {
+                        Console.WriteLine("\nEstoque atualizado com sucesso!");
+                    }
                 }
             }
         }
